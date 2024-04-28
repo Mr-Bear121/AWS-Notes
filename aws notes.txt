@@ -1,0 +1,199 @@
+cloud computing - giving resources on demand using the internet
+aws is infrastructure as a service (iaas) it also provide tools for work flow management. modile and other
+scalability- how easy it is to scale up to bigger projects
+elasticity - how quickly you can can scale up or down
+agility - how quickly the service runs
+
+aws resources -aws management consol - (GUI)
+command line interface: (CLI)
+Software Developement kits -(SDKs) - incorporate the connectivity and functionality of a wide range of cloud sevices into your code
+
+ec2 - elastic compute cloud - the main tool used for aws
+
+ebs - harddrive space as a service
+
+s3 - data storage server
+edge locations - areas where end user can access aws services- mostly found in major cities
+availabitlity zone - isolated locations which public cloud services originate and operate
+
+amazon virtual private network (VPC)
+
+security responsibility model:physical,network,hypervisor,guestOS,Application,UserData
+
+aws is resposible for everything below the guestOS
+
+aws authentication:
+temp is given to roles and perminent is given to users
+
+------------create virtual private networks in the aws cloud
+
+allows for control of the network configuration
+
+offers several security controls.
+
+also has inbuild security
+
+scalable into other aws services-----------
+
+Load balencer "elastic load balencing":
+
+allows routing and routing rules to route data from an aplication into the system in the back
+
+supports autoscaling
+
+route 53 : dns service
+
+also can route to the closest dns server in order to decrease latency
+
+compliant with ipv 4 and 6
+
+Challenges of running your own relational database:
+
+server maintenance and engery consumption
+
+software installation and patches
+
+data base backups and availability
+
+limits on scalability
+
+data security
+
+os installation and patches
+
+Amazon RDS (Relational database systems):
+
+manages:
+
+everything above but it also
+Scalable
+manages power and rack & stack
+
+AWS Lamba:severless compute program
+
+supports multiple languages
+
+event driven
+
+pay per use computing
+
+extract transorm and load
+
+used for back-end development
+
+Elastic BeanStalk: platform as a service
+
+allows you to choose an instance of a database for your application
+
+adjusts the autoscaling
+
+allows you to update your app 
+
+allows https for your application
+
+provides:application service, http service operating system, language interpreter and host
+
+auto updates your code when you change your application
+
+amazon sns "simple notification service":
+
+allows for mobile messaging and coordination of messaging
+
+can be used to notify users of changes to your system
+
+amazon cloud watch: event listener that can call porgrams to react to seen events on the cloud---------
+
+collect metrics"data"
+
+collect logs
+
+set alarms 
+
+make automatic changes to the cloud
+
+amazon cloudfront:
+
+aws global infrustructure
+
+content delivery network "CDN"
+
+can run a webserver to host your content
+
+can "cache" your server so that if it crashes it still serves your content
+
+some uses are: asset caching, video streaming, security and DDoS protection, API acceleration and software distribution
+
+cloud formation:
+
+simplifies tasks by grouping resources that power your apps "automates resource provisioning"
+
+uses aws "management, CLI,SDK/API"
+
+Fully-manages services
+creates,updates and deletes resources in stacks
+
+stack : unit of deployment "a grouping of resources"
+
+can create templates visually to contruct code
+
+AWS well-archected Framwork:
+
+helps to understand and improve architecture
+
+a list of question from different perspectives to increase best practices
+
+5 different pillars : securit, reliability, performance and efficiency, cost optimization, operational excellence
+
+AWS (IAM) identify and access managment
+
+amazon inspector:----------------
+
+delivered as a service
+
+is used to check for security vulnerabilities with a checked system
+
+AWS Shield "Ddos protection":
+
+"Distributive denial of service"
+
+Ddos attack is an attack that tries to flood your network or api to stop your servers
+
+attacks the application layer
+
+protects from query floods and http floods
+
+security compliance:
+
+aws responsability: prived the secure platform and features
+
+Customer Responsibility: configure IT
+
+amazon ebs:
+
+used block storage
+
+columes persist independently from the instance
+
+analogus to a virtual disk
+
+3 types of volumes
+
+general purpose (SSD)
+
+provisioned IOPS (SSD)
+
+Magnetic
+
+AWS Trusted Advisor:
+
+Provides Real time guidence to help provision your resources following AWS Best Practices
+
+AWS Support:
+
+Basic support
+
+Developer support
+
+Business Support
+
+Enterprise Support
